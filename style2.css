@@ -1,0 +1,35 @@
+body {
+  padding-top: 56px; 
+  /* 調整數值以免被遮擋內容 */
+}
+
+.btn {
+  margin: 0px auto;
+}
+
+.card {
+  border: 2.5px solid rgba(128, 128, 128, 0.3);
+  border-radius: 15%;
+}
+
+.card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5) !important;
+}
+
+.card-img-top {
+  width: 70%;
+  margin: 30px auto 20px;
+}
+
+.card-img-top:hover {
+  cursor: pointer;
+}
+
+.genAge {
+  font-size: 1.19rem;
+}
+
+.genAge > i {
+  margin-right: 5px;
+}
+
